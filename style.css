@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+*{
+  margin:0;
+  padding:0;
+  font-family: 'Bree Serif', serif;
+}
+body{
+  min-height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background:#131313;
+}
+.container{
+  position:relative;
+}
+.card{
+  position: relative;
+  width:320px;
+  height:450px;
+  border-radius:20px;
+  background: #223322;
+  overflow:hidden;
+}
