@@ -64,3 +64,100 @@ body{
   transform:translate(-50%,-50%) rotate(-25deg);
   width:270px;
 }
+.details{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  height:100px;
+  text-align: center
+  }
+  .card:hover .details{
+    height:210px;
+  }
+  
+  .details h2{
+    position: relative;
+    font-weight: 600;
+    color:#fff;
+  letter-spacing:1px;    
+  }
+  .sizes,.colors{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:0.5em 1.5em;
+    opacity:0;
+    visibility: hidden;
+    transition:0.5s;
+  }
+  
+  .card:hover .details .sizes{
+    opacity:1;
+    visibility:visible;
+    transition-delay: 0.5s
+  }
+  .card:hover .details .colors{
+    opacity:1;
+    visibility:visible;
+    transition-delay:0.6s;
+  }
+  h3{
+    font-weight: 300;
+    color:#fff;
+    letter-spacing: 1px;
+    margin-right:0.3em;
+  }
+  .sizes span{
+    width:26px;
+    height:26px;
+    background:#fff;
+    color:#111;
+    text-align: center;
+    display:inline-block;
+    margin:0.2em;
+    padding:0.1em;
+    line-height: 1.3em;
+    transition:0.5s;
+  }
+  .sizes span:hover{
+    background:goldenrod;
+    cursor:pointer;
+  }
+  
+  .colors span{
+    width:20px;
+    height:20px;
+    background:#f00;
+    margin-right:5px;
+    border-radius:50%;
+    
+    
+  }
+  .colors span:nth-child(2){
+    background:#0f0;
+  }
+  .colors span:nth-child(3) {
+      background: #00f;
+    }
+  .colors span:nth-child(4) {
+        background: #fff;
+      }
+      
+      button{
+        background:firebrick;
+        margin:0.5em;
+        text-align:center;
+        border:1px solid firebrick;
+        border-radius:25px;
+        padding:10px 20px;
+        cursor:pointer;
+        font-weight:400;
+        cursor:pointer;
+        transition:0.5s;
+      }
+      
+    button:hover{
+      background:#000;
+      color:#fff;
+      transition-delay:0.76s;
+    }
