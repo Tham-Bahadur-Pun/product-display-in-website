@@ -120,7 +120,25 @@ body{
     transition:0.5s;
   }
   .sizes span:hover{
-    transition-delay:0.5s;
     background:goldenrod;
     cursor:pointer;
   }
+  
+  .colors span{
+    width:20px;
+    height:20px;
+    background:#f00;
+    margin-right:5px;
+    border-radius:50%;
+    
+    
+  }
+  .colors span:nth-child(2){
+    background:#0f0;
+  }
+  .colors span:nth-child(3) {
+      background: #00f;
+    }
+  .colors span:nth-child(4) {
+        background: #fff;
+      }
